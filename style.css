@@ -1,0 +1,224 @@
+/* CSS Document */
+.main-body{
+    background-color: white;
+    background-image: url(bar_l.png), url(bar_r.png) ;
+    background-position: left, right;
+    background-repeat: repeat-y,repeat-y;
+    background-size: 30%, 30%;
+}
+
+.container{
+    float: left;
+    width: 100%;    
+}
+/*750*/
+.content{
+    width: 54.90483162518302%;
+    min-width: 320px;
+    margin: 0 auto ;
+    padding: 1.333333333333333% 0 ;
+}
+
+.main-header{
+    background: #ef9c00;
+}
+
+.main-header .content{
+    padding: 2% 0;
+}
+
+.main-header-logo{
+    background: url(facebook.png)center center no-repeat;
+    background-size: 100% auto;
+    float: left;
+    width: 100%;
+    max-width: 300px;
+    height: 58px;
+    font-size: 0px;s
+}
+
+
+
+/*RESGISTRO*/
+#registro{
+    background-image: url(back_cadastro_l.png), url(back_cadastro_r.png), url(back_cadastro_c.png);
+    background-position: left, right, center;
+    background-repeat: repeat-y,repeat-y,repeat-y;
+    background-size: auto, auto, 90%;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin: 200px auto 0px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: black;
+}
+#registro li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+}
+#registro-label-nome{
+    background-color: none;
+    width: auto;
+    min-width: 300px;
+    height: auto;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+    outline: none;
+}
+#registro-label-imagem{
+    background-color: #314396;
+    /*background-image: url("img_TellMeYou.png");*/
+    margin: 1.333333333333333% auto;
+    width: 100%;
+    height: 100%;
+    max-width: 480px;
+    max-height: 250px;;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+}
+#registro-label-imagem button{
+    width: 100%;
+    background-color: #b28900;
+}
+#registro-label-site{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(site.png);
+    background-repeat: no-repeat;
+    margin:5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+}
+#registro-label-facebook{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(facebook.png);
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+}
+#registro-label-twitter{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(twitter.png);
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+}
+#registro-label-jogar{
+    background-color: #ef9c00;
+    margin: auto;
+    width: auto;
+    min-width: 300px;   
+    height: auto;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+}
+/*IMPUT MAIOR*/
+.input-div{
+    margin:5px;
+    padding: 5px;
+}
+.input-div input{
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    padding: 5px 5px 5px 5px; 
+    text-align: left;
+    font: normal 15px sans-serif;
+    border:none;
+    color: #aeaeae;
+    outline: none;
+}
+.input-div:hover{
+    background-color: #b7b4b4;    
+}
+.input-div:hover input{
+    border-color: #ffffff;
+    background-color: #f0f0f0;
+}
+/*IMPUT MENOR*/
+.input-div-min{
+    margin:1px;
+    padding: 5px;
+    color: #e81515;
+    border-radius: 0x;
+}
+.input-div-min input{
+    text-align: left;
+    font: normal 15px sans-serif;
+    border:none;
+    color: #aeaeae;
+    outline: none;
+}
+.input-div-min:hover{
+    background-color: #ef9c00;
+    opacity: 10;
+    border: normal;
+}
+.custon-text{
+    margin:0px 10px 10px 50px;
+    width: 80px;
+}
+/*INPUT IMAGEM */
+.input-div-imagem{
+    margin:0.3333333333333333%;
+    padding: 0.3333333333333333%;
+}
+.input-div-imagem input{
+    width: 100%;
+    height: auto;
+    padding: 0.3333333333333333% auto; 
+    text-align: left;
+    font: normal 15px sans-serif;
+    border:none;
+    color: #aeaeae;
+    outline: none;
+    visibility: hidden;
+}
+.input-div-imagem:hover{
+    background-color: #b7b4b4;
+    visibility: visible;
+}
+.input-div-imagem:hover input{
+    visibility: visible;
+}
+/*BOTÃO CUSTOMIZAVEL*/
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden; 
+}
+.custom-file-input::before {
+    content: 'Select image';
+    display: inline-block;
+    background: #ef9c00;
+    border: 1px solid #999;
+    margin: 45% auto;
+    padding: 10px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color:white;
+    font-weight: 700;
+    font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: white;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+/*TEXT AREA*/
+.custom-textarea{
+    margin-left:2.666666666666667%;
+    width: 100%;
+    min-width: 300px;
+}

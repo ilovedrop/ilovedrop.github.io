@@ -1,0 +1,56 @@
+<hmtl>
+    
+    
+    <head>
+        <title> Teste de cadastrar jogos</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    
+    
+    <body class="main-body">
+        <header class="main-header" container>
+            <div class="content">
+                <h1 class="main-header-logo">MOVIMENTO DROP</h1>
+            
+            
+            
+            </div>       
+        </header>
+        
+        <main class="content">
+        
+        <form action="action_page.php" method="POST">
+            <div id="registro">
+                <div class="input-div" id="registro-label-nome">
+                    <input type="text" name="game" placeholder= "COLOQUE O NOME DO SEU JOGO AQUI"/>
+                </div>
+                <div class="input-div-imagem" id="registro-label-imagem">
+                    <input type="file" name="image" class="custom-file-input" placeholder= "COLOQUE UMA IMAGEM" id="imagem"/>
+                </div>
+                <div>
+                    <textarea class="custom-textarea" name="desc" placeholder="DESCRIÇÃO DO JOGO"></textarea>
+                </div>
+                <li class="input-div-min" id="registro-label-site">
+                    <input class="custon-text" name="web" type="text" placeholder= "WEBSITE" id="site"/>
+                </li>
+                <li class="input-div-min" id="registro-label-facebook">
+                    <input class="custon-text" name="face" type="text" placeholder= "Facebook" id="facebook"/>
+                </li>
+                <li class="input-div-min" id="registro-label-twitter">
+                    <input class="custon-text" name="twi" type="text" placeholder= "Twitter" id="twitter"/>
+                </li>
+                <div class="input-div" id="registro-label-jogar">
+                    <input type="text" name="play" placeholder= "LINK OF GAME" id="site"/>
+                </div>
+                <div>
+                    <input type="submit" value="Send your drop" id="send"/>
+                </div>
+            </div>
+        </form>
+        
+        </main>
+    </body>
+
+
+
+</hmtl>
